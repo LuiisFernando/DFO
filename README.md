@@ -1,18 +1,18 @@
 # DFO
 
-<p>The backend project was developed with .NET Web API with DDD as design pattern, and EntityFramework as ORM.</p>
-<p>To run the backend project just rebuild the solution and start the WebApi project.</p>
+The backend project was developed with .NET Web API with DDD as design pattern, and EntityFramework as ORM.
+To run the backend project just rebuild the solution and start the WebApi project.
 
 
-<p>The frontend project was developed with Angular 11.</p>
-<p>To run the frontend project please, follow the steps below</p>
+The frontend project was developed with Angular 11.
+To run the frontend project please, follow the steps below
 
-<p>1- install the dependencies.</p>
+1- install the dependencies.
 ```
 npm install
 ```
 
-<p>2 - run the project</p>
+2 - run the project
 ```
 ng serve -o
 ```
