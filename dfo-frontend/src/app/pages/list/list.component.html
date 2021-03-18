@@ -1,0 +1,25 @@
+<h1>List</h1>
+<p>
+    In this page contains all users already registered.
+</p>
+<div class="none-users" *ngIf="!users">
+  <p>None user registered yet!</p>
+</div>
+<div *ngIf="users">
+  <table>
+      <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Address</th>
+          <th></th>
+          <th></th>
+      </tr>
+      <tr *ngFor="let user of users; index as i">
+          <td>{{user.Name}}</td>
+          <td>{{user.Age}}</td>
+          <td>{{user.Address}}</td>
+          <td (click)="goToUpdate(user.ID)" class="link">update</td>
+          <td (click)="goToView(user.ID)" class="link">view</td>
+      </tr>
+  </table>
+</div>

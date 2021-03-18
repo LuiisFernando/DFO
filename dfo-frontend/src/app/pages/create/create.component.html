@@ -1,0 +1,18 @@
+<h1>Create User</h1>
+<p>In this page you can register a user</p>
+<p class="warning">* REQUIRED FIELDS</p>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="name">Name <span>*</span></label>
+        <input type="text" formControlName="name" autofocus [appShowErrors]="form.get('name')" />
+    </div>
+    <div class="form-control">
+        <label for="age">Age <span>*</span></label>
+        <input type="number" formControlName="age" [appShowErrors]="form.get('age')" />
+    </div>
+    <div class="form-control">
+        <label for="address">Address</label>
+        <input type="text" formControlName="address" [appShowErrors]="form.get('address')" />
+    </div>
+    <button type="submit" [class.disabled]="!form.valid" [disabled]="!form.valid">Save</button>
+</form>

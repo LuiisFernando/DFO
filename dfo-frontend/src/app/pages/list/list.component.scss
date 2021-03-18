@@ -1,0 +1,45 @@
+h1 {
+    font-weight: bold;
+    font-size: 38px;
+    margin: 40px 0;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.none-users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  font-size: 14px;
+  color: grey;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background: #212529;
+    border-color: #32383e;
+    color: #fff;
+    height: 50px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+
+}
+table td, table th {
+    border-bottom: 1px solid #dee2e6;
+    padding: .75rem;
+    text-align: center;
+}
