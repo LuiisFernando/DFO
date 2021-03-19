@@ -1,6 +1,6 @@
 # DFO
 
-The backend project was developed with .NET Web API with DDD as design pattern, and EntityFramework as ORM.
+The backend project was developed with .NET Web API with DDD as design pattern and EntityFramework as ORM.
 
 To run the backend project just rebuild the solution and start the WebApi project.
 
